@@ -1,0 +1,57 @@
+.about-photos {
+    border-radius: 50%;
+}
+
+#about-section1 {
+    margin-top: 45px;
+}
+
+#profile1 {
+    padding-left: 100px;
+    display: inline-block;
+    float: left
+}
+
+#about-text1 {
+    font-size: 20px;
+    padding-top: 125px;
+    margin-right: 50px;
+    text-align: right;
+    width: 60%;
+    display: inline-block;
+    float: right;
+}
+
+#about-section2 {
+    margin-top: 45px;
+}
+
+#profile2 {
+    margin-top: 140px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    float: right
+}
+
+#about-text2 {
+    font-size: 20px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    text-align: left;
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+
+#carousel {
+    margin-top: 100px;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
