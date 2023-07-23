@@ -27,11 +27,11 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav mr-auto">
 
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="index.html">Home <span class="sr-only">made up studio logo link to index page</span></a>
             </li>
             
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link " href="bookings.html">Bookings</a>
             </li>
 
@@ -64,23 +64,23 @@
 
         <div class="col-lg-offset-3 col-md-3 form-group" id="details">
             <label for="name">Name</label>
-            <input name="fullname" type="text" class="form-control" id="name">
+            <input required name="fullname" type="text" class="form-control" id="name">
         
             <label for="phone">Phone</label>
-            <input name="phone" type="phone" class="form-control" id="phone">
+            <input required name="phone" type="phone" class="form-control" id="phone">
              
             <label for="email">Email</label>
-            <input name="email" type="email" class="form-control" id="email">
+            <input required name="email" type="email" class="form-control" id="email">
         
         </div>
         
         <div class="col-md-3 form-group" id="options">
 
             <label for="date">Date</label>
-            <input name="date" type="date" class="form-control" id="date">
+            <input required name="date" type="date" class="form-control" id="date">
 
             <label for="studio">Studio:</label>
-            <select name="studio" id="studio" class="form-control">
+            <select required name="studio" id="studio" class="form-control">
                 <option hidden selected>Select Studio...</option>
                 <option>Studio 1</option>
                 <option>Studio 2</option>
@@ -88,7 +88,7 @@
             </select>
         
             <label for="time">Time:</label>
-            <select name="time" id="time" class="form-control">
+            <select required name="time" id="time" class="form-control">
                 <option hidden selected>Select Time...</option>
                 <option>09:00-12:00</option>
                 <option>12:00-15:00</option>

@@ -157,6 +157,22 @@ form {
     margin-left: 10px;
 }
 
+#gallery-photos {
+    clear: both;
+    line-height: 0px;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery-photos img {
+    width: 100%;
+
+}
+
+body {
+    background-color: rgb(35, 38, 38)
+}
+
 @media only screen and (max-width: 650px) {
         
     #about-section1 {
@@ -208,6 +224,31 @@ form {
         margin-left: 0px;
     }
 
+    #gallery-photos {
+        clear: both;
+        line-height: 0px;
+        column-count: 2;
+        column-gap: 0px;
+    }
     
+    #gallery-photos img {
+        width: 100%;
+    
+    }
+ }
 
-  }
+ @media only screen and (max-width: 420px) {
+
+    #gallery-photos {
+        clear: both;
+        line-height: 0px;
+        column-count: 1;
+        column-gap: 0px;
+    }
+    
+    #gallery-photos img {
+        width: 100%;
+    
+    }
+    
+ }
