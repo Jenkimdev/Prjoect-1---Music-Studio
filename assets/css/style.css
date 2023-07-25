@@ -11,6 +11,14 @@ h1 {
     font-size: 28px;
 }
 
+.navbar-brand:hover {
+    color: rgb(35, 118, 102);
+}
+
+.nav-link:hover {
+    color: rgb(35, 118, 102);
+}
+
 .hero-section {
     position: relative;
     background: black;
@@ -195,6 +203,11 @@ map-section {
 #maplabel {
     margin: 15px;
     font-size: 20px;
+}
+
+.contact-info {
+    background-image: url('https://64.media.tumblr.com/8f62696a13023e496cbce925d6cd25cf/c7c93948c4378673-f5/s500x750/e3e3f748c6b7c9cd817ea808871ae47e328eb98c.gif');
+    color: white;
 }
 
 

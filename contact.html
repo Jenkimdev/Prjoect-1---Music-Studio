@@ -80,16 +80,16 @@
 
     <section class="contact-form col-sm-4 col-12"
     >
-        <form class="col-12">
+        <form method="post" action="https://formdump.codeinstitute.net" class="col-12">
 
             <label class="form-label" for="fname">Name</label>
-            <input type="text" class="form-control" name="full_name" id="fname">
+            <input type="text" class="form-control" required name="full_name" id="fname">
             <label class="form-label" for="cnumber">Number</label>
-            <input type="text" class="form-control" name="contact_number" id="cnumber"> 
+            <input type="text" class="form-control" required name="contact_number" id="cnumber"> 
             <label class="form-label" for="eaddress">Email</label>
-            <input type="text" class="form-control" name="email_address" id="email_address">
+            <input type="text" class="form-control" required name="email_address" id="email_address">
             <label class="form-label" for="query">Query</label>
-            <textarea name="query" class="form-control" id="query" placeholder="How can we help?"></textarea>              <br>
+            <textarea name="query" class="form-control" required id="query" placeholder="How can we help?"></textarea>              <br>
             <input type="submit" class="form-control btn btn-success">
             <br>
 
