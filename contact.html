@@ -52,41 +52,74 @@
 
 <body>
 
-<section class="contact-form">
+<Section class="row">
 
-    <form class=" row contact-us-form">
-        <div class="col-sm-8">
-            <br>
-        </div>
-           <div class="col-sm-4">
-            <br>
-           <label class="form-label" for="fname">Name</label>
-           <input type="text" class="form-control" name="full_name" id="fname">
-           <label class="form-label" for="cnumber">Number</label>
-           <input type="text" class="form-control" name="contact_number" id="cnumber"> 
-           <label class="form-label" for="eaddress">Email</label>
-           <input type="text" class="form-control" name="email_address" id="email_address">
-           <label class="form-label" for="query">Query</label>
-           <textarea name="query" class="form-control" id="query" placeholder="How can we help?"></textarea>
-           <br>
-           <input type="submit" class="form-control btn btn-success">
-           <br>
-           </div>
+    <section class="col-sm-7 col-12 contact-info">
         
-    </form>
+        <label for="info-loc1" class="form-label">Telephone: </label>
+        <div id="info-loc1" class="info_location">
+            01234567890
+        </div>
+        
+        <label id="email_label" for="info-loc2" class="form-label">Email: </label>
+        <div id="info-loc2" class="info_location">
+            enquiries@madeupstudio.co.uk
+        </div>
+
+        
+            
+        <label id="addresslabel" class="form-label" for="info-loc3">Address: </label>
+        <div id="info-loc3" class="info_location">
+            123 Made Up Street,
+            Made Up Town,
+            Made Up County,
+            MU12 1MU
+        </div>
+        
+    </section>
+
+    <section class="contact-form col-sm-4 col-12"
+    >
+        <form class="col-12">
+
+            <label class="form-label" for="fname">Name</label>
+            <input type="text" class="form-control" name="full_name" id="fname">
+            <label class="form-label" for="cnumber">Number</label>
+            <input type="text" class="form-control" name="contact_number" id="cnumber"> 
+            <label class="form-label" for="eaddress">Email</label>
+            <input type="text" class="form-control" name="email_address" id="email_address">
+            <label class="form-label" for="query">Query</label>
+            <textarea name="query" class="form-control" id="query" placeholder="How can we help?"></textarea>              <br>
+            <input type="submit" class="form-control btn btn-success">
+            <br>
+
+        </form>
+
+</Section>
+
+</section>
+
+<section class="map-area">
+
+    <form class="row">
+
+        <div class="map-section col-sm-12">
+
+            <br>
+            <label id="maplabel" class="form-label" for="map">Location:</label>
+            <iframe class="col-12" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.803394275509!2d-3.182549524596398!3d51.4801230126972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb04a6b4313%3A0x376cf9ca1495f104!2sEscape%20Rooms%20Cardiff!5e0!3m2!1sen!2suk!4v1690307453458!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        </div>
+    
 
 </section>
 
 <br>
-<section class="">
-    <iframe class="col-sm-8 col-12  map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.803394275509!2d-3.182549524596398!3d51.4801230126972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb04a6b4313%3A0x376cf9ca1495f104!2sEscape%20Rooms%20Cardiff!5e0!3m2!1sen!2suk!4v1690307453458!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
-</body>
 
-<br>
+</body>
 
 <footer>
 

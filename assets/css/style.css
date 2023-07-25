@@ -169,6 +169,28 @@ form {
 
 }
 
+label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-form {
+    margin: 10px;
+}
+
+.contact-info {
+    font-size: 20px;
+    margin: 15px;
+} 
+
+map-section {
+    margin: 10px;
+}
+
+#maplabel {
+    margin: 15px;
+    font-size: 20px;
+}
 
 
 @media only screen and (max-width: 650px) {
