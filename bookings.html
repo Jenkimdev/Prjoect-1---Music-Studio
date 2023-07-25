@@ -16,97 +16,100 @@
 <header>
   
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    
-        <a class="navbar-brand h1" href="index.html">       
+      <a class="navbar-brand h1" href="index.html">       
             Made Up Studio
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          
+        <ul class="navbar-nav mr-auto">
 
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">made up studio logo link to index page</span></a>
-            </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">made up studio logo link to index page</span></a>
+          </li>
             
-            <li class="nav-item active">
-              <a class="nav-link " href="bookings.html">Bookings</a>
-            </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="bookings.html">Bookings</a>
+          </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
 
-          </ul>
-        
-
-      </nav>
+        </ul>
+      </div>
+    </nav>
     
 </header>
 
 <body>
+  <br>
 
-<br>
+<section class="booking-section">
 
-    <div class="booking-section">
-
-        <fieldset></fieldset>
-        <legend>Send us a booking request!</legend>
-        <form method="post" action="https://formdump.codeinstitute.net" class="row g-3" id="booking-form">
- 
-        <div class="col-md-3"></div>
-
-        <div class="col-lg-offset-3 col-md-3 form-group" id="details">
-            <label for="name">Name</label>
-            <input required name="fullname" type="text" class="form-control" id="name">
+  <div id="legend">Send us a booking request!</div>
+  <form method="post" action="https://formdump.codeinstitute.net" class="row g-3" id="booking-form">
         
-            <label for="phone">Phone</label>
-            <input required name="phone" type="phone" class="form-control" id="phone">
+    <div class="col-md-3 spacer"></div>
+
+    <div class="col-lg-offset-3 col-md-3 form-group" id="details">
+
+       <label for="name">Name</label>
+      <input required name="fullname" type="text" class="form-control" id="name">
+        
+      <label for="phone">Phone</label>
+      <input required name="phone" type="text" class="form-control" id="phone">
              
-            <label for="email">Email</label>
-            <input required name="email" type="email" class="form-control" id="email">
+      <label for="email">Email</label>
+      <input required name="email" type="email" class="form-control" id="email">
         
-        </div>
+    </div>
         
-        <div class="col-md-3 form-group" id="options">
+    <div class="col-md-3 form-group" id="options">
 
-            <label for="date">Date</label>
-            <input required name="date" type="date" class="form-control" id="date">
+      <label for="date">Date</label>
+      <input required name="date" type="date" class="form-control" id="date">
 
-            <label for="studio">Studio:</label>
-            <select required name="studio" id="studio" class="form-control">
-                <option hidden selected>Select Studio...</option>
-                <option>Studio 1</option>
-                <option>Studio 2</option>
-                <option>Studio 3</option>
-            </select>
+      <label for="studio">Studio:</label>
+        <select required name="studio" id="studio" class="form-control">
+          
+          <option hidden selected></option>
+          <option>Studio 1</option>
+          <option>Studio 2</option>
+          <option>Studio 3</option>
+       
+        </select>
         
-            <label for="time">Time:</label>
-            <select required name="time" id="time" class="form-control">
-                <option hidden selected>Select Time...</option>
-                <option>09:00-12:00</option>
-                <option>12:00-15:00</option>
-                <option>15:00-18:00</option>
-            </select>
-        </div>
-        <div class="row">
-        <div class="col-md-3"></div>
-        <input id="submit" name="submit" type="submit" class="btn btn-success col-md-6">
-        </div>
-        <br>
-
-        </form>
-        </fieldset>
+      <label for="time">Time:</label>
+        <select required name="time" id="time" class="form-control">
+          
+          <option hidden selected></option>
+          <option>09:00-12:00</option>
+          <option>12:00-15:00</option>
+          <option>15:00-18:00</option>
+        
+        </select>
 
     </div>
 
-    <div id="carousel" class="carousel-slide" data-bs-ride="carousel">
+    <div class="row">
+      <div class="spacer col-md-3"></div>
+      <input id="submit" name="submit" type="submit" class="btn btn-success col-md-6">
+    </div>
+        
+    <br>
+
+  </form>
+  </section>
+
+  <div id="carousel" class="carousel-slide" data-bs-ride="carousel">
       
       <div class="carousel-inner">
 
@@ -162,24 +165,22 @@
         <span class="visually-hidden">Next</span>
       </button>
 
-    </div>
-
+  </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
-</body>
 
-<br>
+</body>
 
 <footer>
 
-<a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-<a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-<a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-<a href="http://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-<a href="http://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+  <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+  <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+  <a href="http://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+  <a href="http://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
 
-<p class="d-none d-sm-none d-xs-none d-md-none d-lg-block d-xl-block"><a target="_blank" href="https://www.trustpilot.com/">Used us already? Click here to leave feedback!</a></p>
+  <p class="d-none d-sm-none d-xs-none d-md-none d-lg-block d-xl-block"><a target="_blank" href="https://www.trustpilot.com/">Used us already? Click here to leave feedback!</a></p>
 
 </footer>
 
