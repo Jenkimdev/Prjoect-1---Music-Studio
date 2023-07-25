@@ -97,6 +97,16 @@ h1 {
     width: 90%;
 }
 
+.carousel-control-prev-icon {
+    position: relative;
+    display: flex;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    display: flex;
+}
+
 footer {
     margin-top: 40px;
     width: 100%;
@@ -143,13 +153,8 @@ p a {
     padding-bottom: 15px;
 }
 
-form {
-    max-height: 90%;
-    margin: 0 auto;
-}
-
 .booking-section {
-    margin: 20px;
+    margin: px;
 }
 
 #submit {
