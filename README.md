@@ -13,7 +13,7 @@ The last update to this file was:  2nd August 2023
 
 **Live Website**
 
-A live version of the project can be viewed here:
+A live version of the project can be viewed here: https://jenkimdev.github.io/Project-1---Music-Studio/
 
 **User Experience (UX)**
 
