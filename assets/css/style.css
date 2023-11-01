@@ -1,3 +1,5 @@
+/* Heading section styles */
+
 h1 {
     font-family: 'Teko', sans-serif;
     font-weight: bold;
@@ -17,6 +19,12 @@ h1 {
 
 .nav-link:hover {
     color: rgb(35, 118, 102);
+}
+
+/* Hero section styles */
+
+#hero {
+    width: 100%;
 }
 
 .hero-section {
@@ -42,6 +50,14 @@ h1 {
     opacity: 0.6;
 }
 
+/* About section styles */
+
+#about-heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .about-photos {
     border-radius: 50%;
 }
@@ -56,6 +72,8 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
 }
+
+/* Profile section styles */
 
 #profile1 {
     width: 250px;
@@ -98,6 +116,14 @@ h1 {
     flex-wrap: nowrap;
 }
 
+/* Gallery section styles */
+
+#gallery-heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
 #carousel {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -119,6 +145,8 @@ h1 {
     position: relative;
     display: flex;
 }
+
+/* Footer section styles */
 
 footer {
     margin-top: 40px;
@@ -166,6 +194,8 @@ p a {
     padding-bottom: 15px;
 } 
 
+/* Booking section styles */
+
 .booking-section form {
     margin: 30px;
 }
@@ -174,6 +204,8 @@ p a {
     margin-top: 25px;
     margin-left: 10px;
 }
+
+/* Gallery page styles */
 
 #gallery-photos {
     clear: both;
@@ -187,6 +219,8 @@ p a {
 
 }
 
+/* Contact section styles */
+
 label {
     margin-top: 15px;
     font-weight: bold;
@@ -199,6 +233,8 @@ label {
 .contact-form form {
     padding:10px;
 }
+
+/* Map section styles */
 
 .map-section {
     margin-left: 50px;
@@ -219,6 +255,7 @@ label {
     color: white;
 }
 
+/* Mobile Responsiveness styles */
 
 @media only screen and (max-width: 650px) {
         
