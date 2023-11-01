@@ -13,7 +13,11 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
 
-<header>
+<body>
+
+  <header>
+
+    <!-- Navbar Section -->
   
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <a class="navbar-brand h1" href="index.html">       
@@ -49,10 +53,12 @@
     
 </header>
 
-<body>
+
   <br>
 
 <section class="booking-section">
+
+  <!-- Booking Section -->
 
   <div id="legend">Send us a booking request!</div>
   <form method="post" action="https://formdump.codeinstitute.net" class="row g-0" id="booking-form">
@@ -78,9 +84,9 @@
       <input required name="date" type="date" class="form-control" id="date">
 
       <label for="studio">Studio:</label>
-        <select required name="studio" id="studio" class="form-control">
+        <select size="4" required name="studio" id="studio" class="form-control">
           
-          <option hidden selected></option>
+          <option hidden selected>-</option>
           <option>Studio 1</option>
           <option>Studio 2</option>
           <option>Studio 3</option>
@@ -88,9 +94,9 @@
         </select>
         
       <label for="time">Time:</label>
-        <select required name="time" id="time" class="form-control">
+        <select size="4" required name="time" id="time" class="form-control">
           
-          <option hidden selected></option>
+          <option hidden selected>-</option>
           <option>09:00-12:00</option>
           <option>12:00-15:00</option>
           <option>15:00-18:00</option>
@@ -110,6 +116,10 @@
   </section>
 
   <section class="row g-0">
+
+    <!-- Carousel Gallery Section -->
+
+    <h4 id="gallery-heading">Take A Look!</h4>
 
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
       
@@ -169,16 +179,10 @@
 
     </div>
 
-
-    </div>
-
-
   </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
-
-</body>
 
 <footer>
 
@@ -191,5 +195,7 @@
   <p class="d-none d-sm-none d-xs-none d-md-none d-lg-block d-xl-block"><a target="_blank" href="https://www.trustpilot.com/">Used us already? Click here to leave feedback!</a></p>
 
 </footer>
+
+</body>
 
 </html>
