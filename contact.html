@@ -13,62 +13,66 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
 
-<header>
-  
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    
-        <a class="navbar-brand h1" href="index.html">       
-            Made Up Studio
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">made up studio logo link to index page</span></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link " href="bookings.html">Bookings</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-          </ul>
-        
-
-      </nav>
-    
-</header>
-
 <body>
+
+    <header>
+
+         <!-- Navbar Section -->
+  
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        
+            <a class="navbar-brand h1" href="index.html">       
+                Made Up Studio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+    
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">made up studio logo link to index page</span></a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link " href="bookings.html">Bookings</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+    
+              </ul>
+            </div>
+    
+          </nav>
+        
+    </header>
+
+     <!-- Contact info Section -->
 
 <Section class="row g-0">
 
     <section class="col-sm-7 col-12 contact-info">
         
-        <label for="info-loc1" class="form-label">Telephone: </label>
+        <div class="form-label">Telephone: </div>
         <div id="info-loc1" class="info_location">
             01234567890
         </div>
         
-        <label id="email_label" for="info-loc2" class="form-label">Email: </label>
+        <div id="email_label" class="form-label">Email: </div>
         <div id="info-loc2" class="info_location">
             enquiries@madeupstudio.co.uk
         </div>
 
         
             
-        <label id="addresslabel" class="form-label" for="info-loc3">Address: </label>
+        <div id="addresslabel" class="form-label">Address: </div>
         <div id="info-loc3" class="info_location">
             123 Made Up Street,
             Made Up Town,
@@ -78,16 +82,18 @@
         
     </section>
 
-    <section class="contact-form col-sm-5 col-12"
-    >
+     <!-- Contact Section -->
+
+    <section class="contact-form col-sm-5 col-12">
+        
         <form method="post" action="https://formdump.codeinstitute.net" class="col-12">
 
             <label class="form-label" for="fname">Name</label>
             <input type="text" class="form-control" required name="full_name" id="fname">
-            <label class="form-label" for="cnumber">Number</label>
-            <input type="text" class="form-control" required name="contact_number" id="cnumber"> 
-            <label class="form-label" for="eaddress">Email</label>
-            <input type="text" class="form-control" required name="email_address" id="email_address">
+            <label class="form-label" for="contact-number">Number</label>
+            <input type="text" class="form-control" required name="contact_number" id="contact-number"> 
+            <label class="form-label" for="email-address">Email</label>
+            <input type="text" class="form-control" required name="email_address" id="email-address">
             <label class="form-label" for="query">Query</label>
             <textarea name="query" class="form-control" required id="query" placeholder="How can we help?"></textarea>              <br>
             <input type="submit" class="form-control btn btn-success">
@@ -95,22 +101,25 @@
 
         </form>
 
-</Section>
+    </section>
 
 </section>
 
 <section class="map-area">
 
+    <!-- Map Section -->
+
     <form class="row g-0">
 
         <div class="map-section col-sm-4 col-12">
 
-            <label id="maplabel" class="form-label" for="map">Location:</label>
+            <div id="maplabel" class="form-label">Location:</div>
             <iframe class="col-12" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.803394275509!2d-3.182549524596398!3d51.4801230126972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb04a6b4313%3A0x376cf9ca1495f104!2sEscape%20Rooms%20Cardiff!5e0!3m2!1sen!2suk!4v1690307453458!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
         </div>
-    
 
+    </form>
+    
 </section>
 
 <br>
@@ -118,18 +127,20 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
 
-</body>
-
 <footer>
 
-<a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-<a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-<a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-<a href="http://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-<a href="http://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    <!-- Social and review footer section -->
 
-<p class="d-none d-sm-none d-xs-none d-md-none d-lg-block d-xl-block"><a target="_blank" href="https://www.trustpilot.com/">Used us already? Click here to leave feedback!</a></p>
+    <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <a href="http://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <a href="http://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    
+    <p class="d-none d-sm-none d-xs-none d-md-none d-lg-block d-xl-block"><a target="_blank" href="https://www.trustpilot.com/">Used us already? Click here to leave feedback!</a></p>
+    
+    </footer>
 
-</footer>
+</body>
 
 </html>
